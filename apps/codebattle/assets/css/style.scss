@@ -4773,3 +4773,40 @@ a.cb-text-light:hover {
     width: 100%;
   }
 }
+@media(max-width:800px){
+.container-fluid {
+	padding-right: 0px;
+	padding-left: 0px;
+}
+.cb-game{
+	padding: 0!important;
+}
+.cb-game div:nth-child(2){
+	order: 3;
+}
+#navbarResponsive ul li:nth-child(1){
+	display: none!important;
+}
+.px-3{
+	padding: 5px!important;
+}
+button[style="position: fixed; right: 16px; bottom: 16px; z-index: 1080; gap: 8px;"]{
+display:none !important;
+}
+}
+@media(max-height:480px){
+.col-12 {
+padding: 1px !important;
+}
+.navbar {
+	padding: 0;
+	height: 30px;
+}
+.py-2{
+padding:0!important;
+}
+.btn-toolbar {
+  padding: 0 !important;
+  margin: 0 !important;
+}
+}
